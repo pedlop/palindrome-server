@@ -1,0 +1,29 @@
+{
+  "name": "palindrome-server",
+  "version": "1.0.0",
+  "description": "Real estate survey - choose your undertakig, server respository.",
+  "homepage": "https://github.com/pedlop/palindrome-server#readme",
+  "author": {
+    "name": "Pedro Victor Lopes",
+    "email": "pedlop.dev@gmail.com"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedlop/palindrome-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedlop/palindrome-server/issues"
+  },
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "marked": "^0.6.2",
+    "mongoose": "^5.5.3"
+  }
+}
