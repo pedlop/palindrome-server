@@ -30,7 +30,7 @@ If the request you make doesn't go through, Mastodon will usually respond with a
 
 Returns the list [Words](#word).
 
-#### Creating a undertakings:
+#### Creating a words:
 
     POST /words
 
@@ -38,8 +38,8 @@ Form Data:
 
 | Field        | Description   | Optional   |
 | ------------ | ------------- | ---------- | 
-| `name` | Undertaking name | No |
-| `image` | An user image file | No |
+| `first_word` | Any random word | No |
+| `second_word` | Any random word | No |
 
 Returns [Success Response](#success-response).
 
